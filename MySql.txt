@@ -1274,7 +1274,7 @@ INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idS
 INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idSucursal, estatus) values ('Cantidad7','Producto7', 'Direccion7', '2022/12/1', '2022/12/1', '7', '1');
 INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idSucursal, estatus) values ('Cantidad8','Producto8', 'Direccion8', '2022/12/1', '2022/12/1', '8', '1');
 INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idSucursal, estatus) values ('Cantidad9','Producto9', 'Direccion9', '2022/12/1', '2022/12/1', '9', '1');
-INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idSucursal, estatus) values ('Cantidad10','Producto10', 'Direccion10', '1/12/2022', '2022/12/1', '10', '1');
+INSERT INTO Delivery(cantidad, producto, direccion, horasalida, horallegada, idSucursal, estatus) values ('Cantidad10','Producto10', 'Direccion10', '2022/12/1', '2022/12/1', '10', '1');
 
 
 
@@ -1302,13 +1302,13 @@ INSERT INTO FacturaCliente(fecha, remitente, cantidad, idContador, idCliente, es
 INSERT INTO FacturaCliente(fecha, remitente, cantidad, idContador, idCliente, estatus) values('2022/12/1', 'remitente10', 10, '10', '10', '1');
 
 
-INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador,idProveedor, estatus) values('2022/12/1', 'remitente1', 1, '1', '1', '1');
+INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente1', 1, '1', '1', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente2', 2, '2', '2', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente3', 3, '3', '3', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente4', 4, '4', '4', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente5', 5, '5', '5', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente6', 6, '6', '6', '1');
-INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor,estatus) values('2022/12/1', 'remitente7', 7, '7', '7', '1');
+INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente7', 7, '7', '7', '1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente8', 8, '8', '8','1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente9', 9, '9', '9','1');
 INSERT INTO FacturaProveedor(fecha, remitente, cantidad, idContador, idProveedor, estatus) values('2022/12/1', 'remitente10', 10, '10', '10','1');
@@ -1338,16 +1338,16 @@ INSERT INTO Instrumento(nombre, tamaño, marca ,idDoctor, estatus) values('nombr
 INSERT INTO Instrumento(nombre, tamaño,marca, idDoctor, estatus) values('nombre10', 'tamaño10','marca10', '10', '1');
 
 
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo1','persona1', '1', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo2','persona2', '2', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo3','persona3', '3', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo4','persona4', '4', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo5','persona5', '5', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo6','persona6', '6', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo7','persona7', '7', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo8','persona8', '8', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo9','persona9', '9', '1');
-INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('1/12/2022','costo10','persona10', '10', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo1','persona1', '1', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo2','persona2', '2', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo3','persona3', '3', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo4','persona4', '4', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo5','persona5', '5', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo6','persona6', '6', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo7','persona7', '7', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo8','persona8', '8', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo9','persona9', '9', '1');
+INSERT INTO Mantenimiento(fecha, costo, persona, idSucursal, estatus) values('2022/12/1','costo10','persona10', '10', '1');
 
 
 
@@ -1680,7 +1680,7 @@ SELECT *FROM Empresa;
 
 
 SELECT *FROM Envio;
-UPDATE Envio SET fechaSalida = '2/12/2022' WHERE idEnvio = 1;
+UPDATE Envio SET fechaSalida = '2022/12/2' WHERE idEnvio = 1;
 SELECT *FROM Envio;
 
 
