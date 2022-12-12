@@ -15,7 +15,6 @@ namespace PruebaMySQL
         public Sucursal()
         {
             InitializeComponent();
-            InitializeComponent();
             string cadena = @"Server=localhost\SQLEXPRESS;Database=Herbarioo;Trusted_Connection=True";
             conexion = new SqlConnection(cadena);
         }

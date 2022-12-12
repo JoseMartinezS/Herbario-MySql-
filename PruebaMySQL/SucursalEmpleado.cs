@@ -33,7 +33,7 @@ namespace PruebaMySQL
 
         private void SucursalEmpleado_Load(object sender, EventArgs e)
         {
-
+            MostrarDatos();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
